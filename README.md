@@ -33,8 +33,9 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 ## Attack Maps Before Hardening / Security Controls
 ![before windows-rdp-auth-fail](https://github.com/Walter10z/Azure-SOC-Honeynet/assets/102203609/3e373354-30aa-467e-a68d-2cc4a23e3ce4)<br>
-[Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+![before linux-ssh-auth-fail](https://github.com/Walter10z/Azure-SOC-Honeynet/assets/102203609/6def3b3e-2bec-482b-bd96-c608cb164b90) <br>
+![before nsg-malicious-allowed-in](https://github.com/Walter10z/Azure-SOC-Honeynet/assets/102203609/7c446a52-6ec7-46f3-8fee-3dab83e58980) <br>
+
 
 ## Metrics Before Hardening / Security Controls
 
