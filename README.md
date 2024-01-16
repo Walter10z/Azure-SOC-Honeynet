@@ -19,13 +19,14 @@ In the course of this project, I constructed a compact honeynet within the Azure
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
+- Virtual Machines (2 windows, 1 linux)
 - Virtual Network (VNet)
 - Network Security Group (NSG)
-- Virtual Machines (2 windows, 1 linux)
-- Log Analytics Workspace
 - Azure Key Vault
 - Azure Storage Account
+- Log Analytics Workspace
 - Microsoft Sentinel
+- Microsoft Defender
 
 In the initial "BEFORE" metrics phase, all resources were initially deployed and exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls configured with broad accessibility, and all other resources were deployed with public endpoints that were visible to the Internet, meaning there was no utilization of Private Endpoints.
 
