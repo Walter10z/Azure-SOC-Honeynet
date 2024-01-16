@@ -70,7 +70,7 @@ Stop Time	2024-01-14 18:47:18
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
 
-## Lesson Learned Report
+## Lessons Learned Report
 
 In this project, a small-scale honeynet was set up on Microsoft Azure, and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was utilized to activate alerts and generate incidents based on the received logs. Furthermore, metrics were assessed in the insecure environment both before implementing security controls and after their application. It is significant to highlight that the implementation of security measures led to a significant reduction in the number of security events and incidents, showcasing their effectiveness.
 
