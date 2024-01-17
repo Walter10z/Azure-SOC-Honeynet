@@ -13,7 +13,8 @@ In the course of this project, I constructed a compact honeynet within the Azure
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+![Public Internet](https://github.com/Walter10z/Azure-SOC-Honeynet/assets/102203609/1d0dc389-7161-44e5-b02f-11e09b94d1ad)
+
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -55,7 +56,8 @@ Stop Time 2024-01-12 16:29:29
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+![image](https://github.com/Walter10z/Azure-SOC-Honeynet/assets/102203609/e1777d94-5f18-4267-af1b-fe0e6386dfd8)
+
 
 
 
