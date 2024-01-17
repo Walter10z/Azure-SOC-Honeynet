@@ -1,5 +1,6 @@
 # Building a SOC + Honeynet in Azure (Live Traffic)
-![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
+![Azure_SOC Honeynet](https://github.com/Walter10z/Azure-SOC-Honeynet/assets/102203609/d371ffbf-afe9-4ade-917b-0ab902250ce4)
+
 
 ## Introduction
 
@@ -13,9 +14,6 @@ In the course of this project, I constructed a compact honeynet within the Azure
 
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
-
-## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -55,6 +53,11 @@ Stop Time 2024-01-12 16:29:29
 ## Attack Maps Before Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
+
+## Architecture After Hardening / Security Controls
+![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+
+
 
 ## Metrics After Hardening / Security Controls
 
